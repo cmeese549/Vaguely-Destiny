@@ -1,0 +1,19 @@
+{
+  "name": "damp-triumphs",
+  "version": "0.0.1",
+  "description": "Should be pretty lit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Chris Meese hella",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "form-data": "^4.0.0"
+  }
+}
