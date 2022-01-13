@@ -5,15 +5,27 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node util/indexer.js",
     "start": "node app.js"
   },
   "author": "Chris Meese hella",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "console-progress-bar": "^1.0.5",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "log-update": "^5.0.0",
+    "mongoose": "^6.1.6",
+    "node-stream-zip": "^1.15.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "request": "^2.88.2",
+    "sequelize": "^6.13.0",
+    "sqlite3": "^5.0.2"
   }
 }
